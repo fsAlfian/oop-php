@@ -12,3 +12,5 @@ var_dump($person);
 echo "Name : " . $person->name . PHP_EOL;
 echo "Adress : " . $person->adress . PHP_EOL;
 echo "Country : " . $person->country . PHP_EOL;
+
+$person->sayHello($person->name);
