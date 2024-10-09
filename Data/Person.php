@@ -7,6 +7,12 @@ class Person
     // prop can null if you want
     var ?String $gender = null;
 
+    function __construct(string $name, string $adress, string $country) {
+        $this->name = $name;
+        $this->adress = $adress;
+        $this->country = $country;
+    }
+
     function sayHello(?string $name){
         if(is_null($name)){
             echo "Hi, my name is $this->name" . PHP_EOL;
@@ -18,4 +24,6 @@ class Person
     function info () {
         echo "Author : " . self::Author . PHP_EOL;
     }
+
+    
 }
