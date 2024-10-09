@@ -15,3 +15,7 @@ echo "Country : " . $person->country . PHP_EOL;
 
 $person->sayHello("Alfian");
 $person->sayHello(null);
+
+const APP = "Belajar PHP OOP";
+
+echo APP . PHP_EOL;
