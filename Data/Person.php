@@ -13,6 +13,10 @@ class Person
         $this->country = $country;
     }
 
+    function __destruct() {
+        echo "Destructor is called, $this->name is destroyed" . PHP_EOL;
+    }
+
     function sayHello(?string $name){
         if(is_null($name)){
             echo "Hi, my name is $this->name" . PHP_EOL;
@@ -24,6 +28,7 @@ class Person
     function info () {
         echo "Author : " . self::Author . PHP_EOL;
     }
+
 
     
 }
