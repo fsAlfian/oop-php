@@ -19,3 +19,5 @@ $person->sayHello(null);
 const APP = "Belajar PHP OOP";
 
 echo APP . PHP_EOL;
+
+$person->info();
