@@ -4,6 +4,10 @@ namespace Data\One {
     class Conflict{
 
     }
+
+    class Helper{
+        
+    }
 }
 
 namespace Data\Two {
